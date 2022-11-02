@@ -38,3 +38,84 @@
 #nav_active {
   color: #e95e9c;
 }
+
+.icon {
+  width: 25px;
+  height: 25px;
+}
+
+.box-input {
+  height: 30px;
+
+}
+
+.input {
+  width: 500px;
+  border: none;
+
+}
+
+.img-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.img-alta {
+  height: 580px;
+  width: 380px;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #3f3f40;
+}
+
+.font-weight-italic {
+  font-size: 16px;
+  line-height: 18px;
+  color: #5f6872;
+  font-weight: 400;
+
+}
+
+.font-weight-italic-footer {
+  font-size: 12px;
+  line-height: 15px;
+  color: #4a4a4a;
+  font-weight: 400;
+}
+
+#border-card {
+  border: none;
+  background-color: #F8F9FA;
+}
+
+#card-texto {
+  text-align: left;
+
+}
+
+#alinha {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  line-height: 10px;
+
+}
+
+#alinha2 {
+  display: flex;
+  align-items: baseline;
+}
+
+@media screen and (max-width:1024px) {
+  #serviços {
+    display: none;
+  }
+
+  .d-none-res {
+    display: none;
+  }
+}
