@@ -110,6 +110,20 @@
   align-items: baseline;
 }
 
+.btn-footer {
+  background-color: #212b36;
+  border: 0;
+  border-radius: 32px;
+  box-shadow: 0 2px 2px 0 transparent;
+  color: #fff;
+  font-family: var(--FONT-FAMILY-SECONDARY-BOLD);
+  font-size: 18px;
+  height: 53px;
+  transition: .2s ease-in-out;
+  width: 183px;
+
+}
+
 @media screen and (max-width:1024px) {
   #serviços {
     display: none;
